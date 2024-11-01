@@ -1,0 +1,10 @@
+#wpadminbar , #adminmenuwrap, #adminmenuback{
+	display: none !important;
+}
+html, #wpcontent, #wpfooter{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#wpbody-content > div:not(.sided-wp-plugin-wrapper){
+	display: none !important;
+}
